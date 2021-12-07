@@ -40,7 +40,7 @@ h1 {
   width: 40%;
   transform: rotate(20deg);
   position:relative;
-  right: -45%;
+  right: -35%;
   top: 0%;
 }
 
@@ -129,4 +129,30 @@ h1 {
   padding:5% 15%;
   font-size:3rem;
   font-family:Montserrat-Bold;
+}
+
+/* footer  */
+#footer{
+  margin:2% 5%;
+  text-align:center;
+}
+#footer i{
+  margin:0 3%;
+}
+#footer p{
+  padding-top:3%;
+}
+
+
+/* media query */
+
+@media (max-width:1000px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position:static;
+    transform: rotate(0);
+    width:35%;
+  }
 }
